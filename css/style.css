@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald:wght@700&display=swap');
+
+body{
+	background: #fff;
+	font-family: 'Lato', sans-serif;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Header */
+
+.strict-header{
+	background: #f6f9f9;
+	padding: 30px 0;
+}
+.strict-menu{}
+.strict-menu ul{
+	display: flex;
+	justify-content: flex-end;
+}
+.strict-menu ul li a{
+	font-family: 'Oswald', sans-serif;
+	color: #454444;
+	font-size: 20px;
+	text-transform: capitalize;
+	padding: 0 20px;
+}
+.strict-menu ul li:last-child a{
+	padding-right: 0;
+}
+
+/* Banner */
+
+.strict-banner{
+	background: url('../images/cover.jpg');
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding: 115px 0 90px;
+}
+
+.strict-banner-text{}
+.strict-banner-text h1{
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 120px;
+	margin-bottom: 35px;
+}
+.strict-banner-text p{
+	color: #fff;
+	font-size: 20px;
+	border-top: 2px solid #15a4fa;
+	display: inline-block;
+	padding: 35px 15px 65px;
+}
+.strict-banner-button{}
+.strict-banner-button button{
+	background: transparent;
+	border: 1px solid #15a4fa;
+	color: #fff;
+	padding: 20px 35px;
+}
+.strict-banner-button a{
+	display: block;
+	margin-top: 175px;
+	color: #fff;
+}
+
+
+/* About */
+.strict-about{
+	background: #f6f9f9;
+	padding: 85px 0;
+}
+.strict-title{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.strict-title h2{
+	color: #2d3950;
+	font-size: 40px;
+}
+.strict-title p{
+	font-size: 15px;
+	color: #909090;
+}
+.strict-about-content p{
+	color: #999999;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+/* Service */
+
+.strict-service{
+	background: #ffffff;
+	padding: 85px 0;
+}
+.strict-service-icon{
+	width: 100px;
+	height: 100px;
+	background: linear-gradient(90deg, #48baff 50%, #5fc3ff 50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto 20px;
+}
+.strict-service-icon i{
+	font-size: 30px;
+	color: #fff;
+}
+.strict-service-text{
+	text-align: center;
+	padding: 0 25px;
+}
+.strict-service-text h5 a{
+	color: #2d3950;
+	font-size: 22px;
+}
+.strict-service-text p{
+	color: #999999;
+	font-size: 15px;
+}
+
+/* Works */
+
+.strict-works{
+	background: #f6f9f9;
+	padding: 85px 0;
+}
+
+.strict-work-img{
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+.strict-work-img img{
+	width: 100%;
+}
+.strict-work-hover{
+	background: rgba(21, 164, 250, 0.9);
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: .4s;
+}
+.strict-work-hover ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+.strict-work-hover ul li{
+	width: 40px;
+	height: 40px;
+	border: 1px solid #fff;
+	margin: 0 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.strict-work-hover ul li a{
+	color: #fff;
+}
+
+.strict-work-img:hover .strict-work-hover{
+	top: 0;	
+}
+
+/* Contact */
+
+.strict-contact{
+	background: url('../images/contact.png');
+	background-size: cover;
+	background-position: center;
+
+}
+.strict-contact-overlay{
+	background: rgba(45, 57, 80, 0.9);
+	padding: 85px 0;
+}
+
+.strict-contact .strict-title h2{
+	color: #fff;
+}
+.strict-contact .mb-3 input, 
+.strict-contact textarea{
+	width: 100%;
+	resize: none;
+	background: transparent;
+	border: 1px solid #999;
+	padding: 5px;
+}
+.strict-form-bottom{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.strict-subscribe{}
+.strict-subscribe label{
+	color: #fff;
+	margin-left: 5px;
+}
+.strict-submit input{
+	background: transparent;
+	border: 1px solid #15a4fa;
+	color: #fff;
+	padding: 7px 25px;
+}
+/*strict-end*/
+.strict-end{
+    background: #e4e6e6;
+    height: 91px;
+    padding: 30px
+    
+}
+.strict-end-icon{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 25px 37px 25px;
+  
+}
+
+ .strict-end h5{
+    font-size: 15px;
+    color: #999999;
+    margin: 38px 42px 30px 36px;   
+}

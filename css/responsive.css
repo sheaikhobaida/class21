@@ -1,0 +1,22 @@
+@media (max-width: 991px) {
+
+	.strict-logo{
+		width: 150px;
+		margin: 0 auto 30px;
+	}
+	.strict-menu ul{
+		display: block;
+		text-align: center;
+	}
+	.strict-menu ul li a{
+		display: block;
+		padding: 5px 20px;
+	}
+
+}
+
+@media (max-width: 575px) {
+	.strict-banner-text h1{
+		font-size: 80px;
+	}
+}
